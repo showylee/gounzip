@@ -1,5 +1,0 @@
-package unzip
-
-func Unzip() {
-
-}
