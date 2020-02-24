@@ -1,3 +1,3 @@
-module unziplogs
+module github.com/showylee/gunzip
 
-go 1.12
+go 1.13
