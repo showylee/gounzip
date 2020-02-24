@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/showylee/gunzip/lib/gunzip"
+	"github.com/showylee/gunzip/lib"
 )
 
 var (
@@ -16,7 +16,7 @@ func main() {
 	flag.StringVar(&d, "d", "", "destination directory")
 	flag.Parse()
 
-	gunzip = Gunzip{}
+	gunzip := lib.Gunzip{}
 	gunzip.Src = flag.Arg(0)
 	if d == "" {
 		gunzip.D = false

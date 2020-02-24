@@ -1,4 +1,4 @@
-package gunzip
+package lib
 
 import (
 	"io/ioutil"
